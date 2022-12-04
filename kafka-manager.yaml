@@ -34,7 +34,9 @@ metadata:
 spec:
   selector:
     app: kafka-manager
+  type: NodePort
   ports:
   - protocol: TCP
     port: 80
     targetPort: 80
+	  nodePort:30028

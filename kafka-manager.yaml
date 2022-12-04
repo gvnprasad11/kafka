@@ -24,7 +24,7 @@ spec:
         command:
         - ./bin/kafka-manager
         - -Dhttp.port=80
-		
+	
 ---
 
 kind: Service

@@ -23,8 +23,7 @@ spec:
           value: zookeeper-service:2181
         command:
         - ./bin/kafka-manager
-        - -Dhttp.port=80
-	
+        - -Dhttp.port=80	
 ---
 
 kind: Service
